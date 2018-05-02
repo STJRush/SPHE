@@ -150,7 +150,7 @@ Examine ways of keeping safe, road safety, fire drills. Exploring potential Haza
         <p>Please tell us how helpful this website is (type good or bad):</p>
 
 <input id="demo" type="text">
-<button type="button" onclick="myFunction()">feedback/button>
+<button type="button" onclick="myFunction()">feedback(optional)/button>
 <p id="message"></p>
 
 <script>
@@ -164,7 +164,8 @@ function myFunction() {
         if(isNaN(x)) throw "not a number";
         x = Number(x);
         if(good)    <p> "thank you for your input";</p>
-        if(bad)   throw "thank you for your feedback;
+        if(bad)   throw "thank you for your feedback, could you please tell us why;
+        else        <p>could you please tell us why</p>
     }
     catch(err) {
         message.innerHTML = "Input is " + err;
