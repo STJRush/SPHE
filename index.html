@@ -143,7 +143,43 @@ Examine ways of keeping safe, road safety, fire drills. Exploring potential Haza
         
         <iframe width="854" height="480" src="https://www.youtube.com/embed/e1UYT70k0wM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         
-      </font size>
+     
+        
+        
+        
+        <p>Please tell us how helpful this website is (type good or bad):</p>
+
+<input id="demo" type="text">
+<button type="button" onclick="myFunction()">feedback/button>
+<p id="message"></p>
+
+<script>
+function myFunction() {
+    var message, x;
+    message = document.getElementById("message");
+    message.innerHTML = "";
+    x = document.getElementById("demo").value;
+    try { 
+        if(x == "")  throw "empty";
+        if(isNaN(x)) throw "not a number";
+        x = Number(x);
+        if(good)    throw "thank you for your input";
+        if(bad)   throw "thank you for your feedback;
+    }
+    catch(err) {
+        message.innerHTML = "Input is " + err;
+    }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </font size>
       
    
     
